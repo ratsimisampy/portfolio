@@ -82,3 +82,29 @@ footer{
     width: 100%;
     margin: 10px auto;
 }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 995px) { 
+    .my-row {
+        display: flex; 
+        flex-direction: column;       
+        justify-content: center;
+        margin: 20px 0;
+        width: 100%;
+    }
+    .mgtop {
+        margin-top: 220px;
+    }
+    .small-h1 {
+        font-size: 20px;
+    }
+    .small-subtitle {
+        font-size: 14px;
+    }
+    .wtxt {
+        color : white;
+    }
+    .my-img {
+        margin: 220px auto 50px auto;
+    }
+ }
